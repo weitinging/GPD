@@ -47,4 +47,4 @@ The GPD model was trained using the CATH 40% sequential non-redundancy dataset, 
 *  **data/denovo14** is 14 de novo proteins
 
 ## Training the GPD model
-Its training lasted 1 days and utilized 2 NVIDIA 40G V100 GPUs
+** train/train_encoder3.py** Its training lasted 1 days and utilized 2 NVIDIA 40G V100 GPUs
