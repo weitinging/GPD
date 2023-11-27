@@ -15,8 +15,9 @@ conda install -c anaconda networkx
 
 # Example
 ```
-example/submit_example_2_fixed.sh  (simple example)
-example/submit_example_1.sh (fix some residue positions)
+cd example/
+sh submit_example_2_fixed.sh  (simple example)
+sh example/submit_example_1.sh (fix some residue positions)
 ```
 
 ## Output example:
