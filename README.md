@@ -40,20 +40,19 @@ IAAGARFNAYPALPPELVPAAKGATDAAGTLKP
 *  **length** is the length of designed sequence.
 
 # Directory
-
-## The "data" directory is the training dataset and three test datasets
-The GPD model was trained using the CATH 40% sequential non-redundancy dataset, with a split ratio of 29868:1000:103 for the training, validation, and testing sets, respectively. We further evaluated the performance of GPD using 39 de novo proteins, including 14 de novo proteins that exhibit significant structural differences from proteins belonging to natural folds.
+## The "data" directory 
+**the training dataset and three test datasets:** The GPD model was trained using the CATH 40% sequential non-redundancy dataset, with a split ratio of 29868:1000:103 for the training, validation, and testing sets, respectively. We further evaluated the performance of GPD using 39 de novo proteins, including 14 de novo proteins that exhibit significant structural differences from proteins belonging to natural folds.
 *  **data/cath-dataset-nonredundant-S40-v4_3_0.pdb** is CATH 40% sequential non-redundancy dataset downloaded from http://download.cathdb.info/cath/releases/all-releases/v4_3_0/non-redundant-data-sets/cath-dataset-nonredundant-S40-v4_3_0.pdb.tgz
 *  **data/sc103** is 103 single chain proteins
 *  **data/denovo39** is 39 de novo proteins
 *  **data/denovo14** is 14 de novo proteins
 
 ## The "GPD" directory
-the pre-trained weights and scripts for calculating graph features
+The pre-trained weights and scripts for calculating graph features
 
 ## The "train" directory 
-**train/train_encoder3.py** for training the model using graph features. The output of this script includes model weights and the detailed training process including loss and recovery for each epoch. Its training lasted 1 days and utilized 1 NVIDIA 40G A100 GPUs
+The script is for training the model using graph features. The output of this script includes model weights and the detailed training process including loss and recovery for each epoch. Its training lasted 1 days and utilized 1 NVIDIA 40G A100 GPUs
 
 ## The “test” directory
-the one-line bash command that allows you to employ GPD for designing your proteins. 
+The one-line bash command that allows you to employ GPD for designing your proteins. 
 
